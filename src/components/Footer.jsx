@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
-    <footer className="flex items-center justify-center h-20 w-full text-white">
+    <div className="text-white h-20 flex items-center justify-center">
       <p className="md:text-[16px] text-[10px]">Copyright © 2024. All rights reserved. - contact@bloqvu.com</p>
-    </footer>
+    </div>
   )
 }
 

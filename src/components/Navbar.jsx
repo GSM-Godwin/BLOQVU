@@ -6,15 +6,12 @@ import X from "../../public/assets/X.svg"
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between">
-      <nav className="flex bg-black h-[74px] md:px-20 px-8">
-        <div className="flex items-center">
+    <nav className="h-[74px] md:px-20 px-8 flex justify-between">
+      <div className="flex items-center">
           <a href="/">
               <Image src={logo} alt="logo" className="md:w-full w-[90px]"/>
           </a>
         </div>
-      </nav>
-      <nav className="flex  w-[100%] bg-black h-[74px] md:px-20 px-8">
         <div className="flex items-center gap-3">
           <div className="bg-[#FFAA02] flex items-center justify-center px-5 h-8 rounded-3xl cursor-pointer">
               <a href="">Docs</a>
@@ -30,8 +27,7 @@ const Navbar = () => {
               </a>
           </div>
         </div>
-      </nav>
-    </div>
+    </nav>
   )
 }
 

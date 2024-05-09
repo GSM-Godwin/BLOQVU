@@ -13,8 +13,8 @@ const About = () => {
         </div>
         <div className="flex mb-5 gap-5">
             <Image src={coingecko} alt="coingecko" className="w-[90px] md:w-full" />
-            <Image src={Coinmarketcap} alt="Coinmarketcap" className="w-[90px] md:w-full" />
-            <Image src={dextools} alt="dextools" className="w-[90px] md:w-full" />
+            <Image src={Coinmarketcap} alt="Coinmarketcap" className="w-[100px] md:w-full" />
+            <Image src={dextools} alt="dextools" className="w-[70px] md:w-full" />
         </div>
     </section>
   )
